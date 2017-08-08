@@ -1,0 +1,37 @@
+body {
+	font-family: monospace;
+	font-size: 15px;
+	line-height: 22px;
+	padding: 8px 0;
+}
+
+a {
+	color: blue;
+}
+
+a:visited {
+	color: blue;
+}
+
+i {
+	font-style: normal;
+	text-decoration: underline;
+}
+
+.header {
+	max-width: 572px;
+	margin: auto;
+	font-size: 150%;
+	line-height: 90%;
+}
+
+.main-column {
+	max-width: 572px;
+	margin: auto;
+}
+
+.footer {
+	max-width: 572px;
+	margin: auto;
+	text-align: center;
+}
