@@ -1,0 +1,16 @@
+body {
+	font-family: serif;
+	text-align: center;
+}
+
+hr {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+div#external-links img
+{
+	width: 4rem;
+	height: 4rem;
+	margin: 0.5rem;
+}
