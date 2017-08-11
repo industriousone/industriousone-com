@@ -8,9 +8,32 @@ hr {
 	margin-bottom: 1rem;
 }
 
-div#external-links img
-{
+
+/*
+ * Contact icons. Base is a single column for narrow screens,
+ * progressing to 2x2 and then four across. Unit is rem so
+ * icons will scale up with the text for accessibility.
+ */
+
+div#external-links {
+	margin: auto;
+	width: 6rem;
+}
+
+div#external-links img {
 	width: 4rem;
 	height: 4rem;
 	margin: 0.5rem;
+}
+
+@media all and (min-width: 11rem) {
+	div#external-links {
+		width: 11rem;
+	}
+}
+
+@media all and (min-width: 21rem) {
+	div#external-links {
+		width: 21rem;
+	}
 }
