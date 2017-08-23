@@ -1,11 +1,46 @@
+@import "itc-american-typewriter.css";
+
 body {
-	font-family: serif;
+	margin: auto;
+	max-width: 960px;
 	text-align: center;
 }
 
 hr {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
+}
+
+
+/*
+ * Header wordmark. Broken into two lines, forced left. Some outsized
+ * kerning cleaned up via spans.
+ */
+
+header>h1 {
+	color: #444;
+	font-family: "ITCAmericanTypewriter";
+	font-size: 9rem;
+	line-height: 0.6em;
+	text-align: left;
+	text-transform: lowercase;
+}
+
+header>h1>span {
+	display: block;
+}
+
+header>h1>span:first-child {
+	padding-left: 0.75rem;
+}
+
+header>h1 span.tighten {
+	letter-spacing: -0.04em;
+}
+
+
+h2 {
+	font-weight: normal;
 }
 
 
