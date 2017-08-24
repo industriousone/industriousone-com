@@ -24,7 +24,9 @@
 */
 
 
-/* This seems to occasionally bottleneck page loading, moved to <link/> in page headers */
+/* This seems to occasionally bottleneck page loading, and is only required
+ * for impression counting. Moved to <link/> in page headers so it can be
+ * loaded in parallel with the rest of the page contents. */
 /* @import url("//hello.myfonts.net/count/34816a"); */
 
 
