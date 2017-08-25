@@ -1,0 +1,34 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3441002, 2017-08-23T07:59:09-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: AmericanTypewriterITCPro-Med by ITC
+ * URL: https://www.myfonts.com/fonts/itc/american-typewriter/pro-medium/
+ * Copyright: Copyright &#x00A9; 2014 Monotype ITC Inc. All rights reserved.
+ *
+ * Webfont: AmericanTypewriterStd-Bold by ITC
+ * URL: https://www.myfonts.com/fonts/itc/american-typewriter/std-bold/
+ * Copyright: Copyright &#x00A9; 2015 Monotype ITC Inc. All rights reserved.
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3441002
+ * Licensed pageviews: 250,000
+ *
+ * © 2017 MyFonts Inc
+*/
+
+
+/* This seems to occasionally bottleneck page loading, and is only required
+ * for impression counting. Moved to <link/> in page headers so it can be
+ * loaded in parallel with the rest of the page contents. */
+/* @import url("//hello.myfonts.net/count/34816a"); */
+
+
+@font-face {font-family: 'ITCAmericanTypewriter';font-weight: normal;font-style: normal;src: url('webfonts/34816A_0_0.eot');src: url('webfonts/34816A_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34816A_0_0.woff2') format('woff2'),url('webfonts/34816A_0_0.woff') format('woff'),url('webfonts/34816A_0_0.ttf') format('truetype');}
+@font-face {font-family: 'ITCAmericanTypewriter';font-weight: bold;font-style: normal;src: url('webfonts/34816A_1_0.eot');src: url('webfonts/34816A_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34816A_1_0.woff2') format('woff2'),url('webfonts/34816A_1_0.woff') format('woff'),url('webfonts/34816A_1_0.ttf') format('truetype');}
