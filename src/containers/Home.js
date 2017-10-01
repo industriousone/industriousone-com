@@ -6,6 +6,11 @@ import SocialMediaIcons from '../components/SocialMediaIcons';
 import Wordmark from '../components/Wordmark';
 
 
+const Container = styled.div`
+	text-align: center;
+`;
+
+
 const Content = styled.section`
 	margin: 48px 12px;
 
@@ -42,7 +47,7 @@ const StyledRule = styled(Rule)`
 export default class Home extends React.Component {
 	render() {
 		return (
-			<div className="Home">
+			<Container>
 				<header>
 					<Wordmark />
 				</header>
@@ -56,7 +61,7 @@ export default class Home extends React.Component {
 				<footer>
 					<SocialMediaIcons />
 				</footer>
-			</div>
+			</Container>
 		);
 	}
 }
