@@ -17,9 +17,9 @@ const Container = styled.h1`
 		padding-left: 0.1em;   /* vertically align "i" with "o" */
 	}
 
-
-	&>span.tighten {
+	span.tighten {
 		letter-spacing: -0.045em;   /* clean up some kerning */
+		color; orange;
 	}
 
 	@media all and (min-width: 320px) {  /* scale with screen width */
