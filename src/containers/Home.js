@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 import Rule from '../components/Rule';
@@ -58,8 +59,14 @@ export default class Home extends React.Component {
 					<h2>Software development <span className="amp">&amp;</span> consulting</h2>
 				</Content>
 
-				<footer>
+				<Content>
 					<SocialMediaIcons />
+				</Content>
+
+				<StyledRule />
+
+				<footer>
+					<Link to="/privacy">Privacy Policy</Link>
 				</footer>
 			</Container>
 		);

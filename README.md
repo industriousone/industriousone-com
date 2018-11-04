@@ -14,3 +14,9 @@ Built with:
 - [styled-components](https://www.styled-components.com)
 - [jest](https://facebook.github.io/jest/)
 - [enzyme](http://airbnb.io/enzyme/)
+
+
+## Getting Started
+
+    $ yarn install
+	$ yarn start
