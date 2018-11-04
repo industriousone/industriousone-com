@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 
 import Home from './containers/Home';
 import NotFound from './containers/NotFound';
+import Privacy from './containers/Privacy';
 
 
 export default class Routes extends React.Component {
@@ -10,6 +11,7 @@ export default class Routes extends React.Component {
 		return (
 			<Switch>
 				<Route path="/" exact component={Home} />
+				<Route path="/privacy" component={Privacy} />
 				<Route component={NotFound} />
 			</Switch>
 		);
